@@ -53,14 +53,25 @@ body {
 .user:hover {
   background-color: black;
 }
-.user__name {
+.user__fullname {
   color: yellow;
+}
+.user__name {
+  color: white;
 }
 .user__phone {
   color: white;
 }
 .user__phone:hover {
   text-decoration: underline;
+}
+.loading{
+  color: #fff;
+  font-weight: bolder;
+}
+.error{
+  color: #ff0000;
+  font-weight: bolder;
 }
 @media screen and (max-width: 992px) {
   .users {
